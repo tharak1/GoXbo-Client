@@ -1,0 +1,63 @@
+nav{
+    width: 100%;
+    background-color: #e1e1e3;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: rgb(255, 0, 255);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.logo{
+    margin-left: 20px;
+}
+.links{
+    margin-right: 30px;
+}
+li{
+    margin-right: 15px;
+}
+.holder{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background:url(https://yaatra.onrender.com/img/bg_img.jpg) no-repeat center/cover;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 60px;
+    width: 50vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    padding: 15px;
+    font-size: larger;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 60px;
+    width: 100px;
+    border: none;
+    font-size: larger;
+}
+.search-btn:hover{
+    background-color: azure;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    row-gap: 30px;
+}

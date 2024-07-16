@@ -1,0 +1,48 @@
+.monumentDetails{
+    display: flex;
+    flex-direction: column;
+}
+.image-holder-monument-details{
+    height: 60vh;
+    width: 60vw ;
+    margin-top: 30px;
+}
+.image-holder-monument-details img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill ;
+    border-radius: 30px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.btn-desc{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+    background-color: rgb(250, 183, 95);
+    transition: all 0.3s;
+
+}
+.btn-desc:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.info p{
+    margin-top: 20px;
+    font-size: medium;
+}
+.span{
+    width: 100%;
+    color: rgb(118, 118, 118);
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+}
